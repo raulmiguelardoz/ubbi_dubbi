@@ -1,0 +1,19 @@
+def ubbi_dubbi(texto):
+    traduccion=""
+    vocales=["a","e","i","o","u","A","E","I","O","U"]
+    for i in list(texto):
+        if i in vocales:
+            i="ub"+i
+        traduccion+=i  
+    print(traduccion)
+
+
+ubbi_dubbi('basic program')
+ubbi_dubbi('demo')
+ubbi_dubbi('red car')
+
+#RESPUESTA
+
+#bubasubic prubogrubam
+#dubemubo
+#rubed cubar
