@@ -1,3 +1,5 @@
+#ESTE PROGRAMANA PCADA VEZ QUE DETECTA UNA VOCAL ANTEPONE "UB" DANDO LUGAR A UNA NUEVA TRADUCCION
+
 def ubbi_dubbi(texto):
     traduccion=""
     vocales=["a","e","i","o","u","A","E","I","O","U"]
